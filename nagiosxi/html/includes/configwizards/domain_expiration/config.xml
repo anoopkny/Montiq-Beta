@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_domain.php"/>
+    </plugins>
+    <templates>
+        <template filename="domain_expiration.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="domain_expiration.png"/>
+    </logos>
+</configwizard>

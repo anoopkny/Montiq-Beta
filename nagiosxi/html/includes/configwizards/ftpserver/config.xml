@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_ftp_fully"/>
+    </plugins>
+    <templates>
+        <template filename="ftpserver.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="ftpserver.png"/>
+    </logos>
+</configwizard>

@@ -1,0 +1,10 @@
+<configwizard>
+    <templates>
+        <template filename="passivecheck.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="passivecheck.png"/>
+    </logos>
+    <plugins>
+    </plugins>
+</configwizard>

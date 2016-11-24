@@ -1,0 +1,19 @@
+1.5.2 - 12/03/2015
+==================
+- Fixed bug in nrdp.sh causing xml special chars to not be escaped -SW
+
+1.5.2 - 10/12/2015
+==================
+- Update installer to work for multiple OS -JO
+
+1.5.1 - 06/09/2015
+==================
+- Small fixes to layout -JO
+
+1.5 - 02/27/2012
+================
+-Fixed directory permission for plugins directory -SW
+
+1.0	- 02/24/2012
+================
+-version 1.0 released 

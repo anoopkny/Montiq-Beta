@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_postgres.pl"/>
+    </plugins>
+    <templates>
+        <template filename="postgresserver.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="postgres.png"/>
+    </logos>
+</configwizard>

@@ -1,0 +1,12 @@
+<configwizard>
+    <templates>
+        <template filename="check_xi_deface.cfg"/>
+    </templates>
+    <plugins>
+        <plugin filename="check_http_content.py"/>
+        <plugin filename="check_http_content.pl"/>
+    </plugins>
+    <logos>
+        <logo filename="website_defacement.png"/>
+    </logos>
+</configwizard>

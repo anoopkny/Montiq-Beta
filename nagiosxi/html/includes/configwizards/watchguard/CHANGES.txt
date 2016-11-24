@@ -1,0 +1,23 @@
+1.4.4 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.4.3 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.4.2 - 12/18/2014
+==================
+- Added ; as an illegal char in service_description as it is treated as a comment -SW
+
+1.4.1 - 11/25/2014
+==================
+- The 'ifDescr' fieled that was requested was already inside the port number field so it has been added to a new column called 'Port Name' and the origional Port Name field was changed to 'Service Description'. Same as the change to the switch wizard which this fix was origionally requested for. -LG
+
+1.4 - 10/23/2014
+==================
+- Rewrite entire wizard using the switch wizard as a template -LG
+	
+1.3 - 07/15/2014
+==================
+- Last updated version in SVN

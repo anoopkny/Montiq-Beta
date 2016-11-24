@@ -1,0 +1,5 @@
+defined(@array) is deprecated at /usr/local/nagiosxi/cron/recurringdowntime.pl line 643.
+	(Maybe you should just omit the defined()?)
+Reading Nagios configuration
+Reading in configuration
+ERROR: Error: /usr/local/nagios/etc/recurringdowntime.cfg: No such file or directory

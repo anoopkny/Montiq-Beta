@@ -1,0 +1,18 @@
+1.2.0 - 06/02/2016
+==================
+- Added ability to resize alert cloud -JO
+- Updated alert cloud styling to be like other modern styles -JO
+- Updated colors to more closely match colors of UP/DOWN/WARNING -JO
+- Fixed security vulnerability -JO
+
+1.1.1 - 11/16/2015
+==================
+- Fixed missing translations -JO
+
+2011-10-24
+==========
+- Fixed additional bug in displaying last hostname - LM
+
+2011-09-26
+==========
+- Fixed bug in displaying last host name - EG

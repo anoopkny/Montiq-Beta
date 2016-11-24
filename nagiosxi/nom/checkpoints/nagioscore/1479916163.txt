@@ -1,0 +1,38 @@
+
+Nagios Core 4.1.1
+Copyright (c) 2009-present Nagios Core Development Team and Community Contributors
+Copyright (c) 1999-2009 Ethan Galstad
+Last Modified: 08-19-2015
+License: GPL
+
+Website: https://www.nagios.org
+Reading configuration data...
+   Read main config file okay...
+   Read object config files okay...
+
+Running pre-flight check on configuration data...
+
+Checking objects...
+	Checked 11 services.
+	Checked 1 hosts.
+	Checked 1 host groups.
+	Checked 0 service groups.
+	Checked 3 contacts.
+	Checked 2 contact groups.
+	Checked 124 commands.
+	Checked 9 time periods.
+	Checked 0 host escalations.
+	Checked 0 service escalations.
+Checking for circular paths...
+	Checked 1 hosts
+	Checked 0 service dependencies
+	Checked 0 host dependencies
+	Checked 9 timeperiods
+Checking global event handlers...
+Checking obsessive compulsive processor commands...
+Checking misc settings...
+
+Total Warnings: 0
+Total Errors:   0
+
+Things look okay - No serious problems were detected during the pre-flight check

@@ -1,0 +1,82 @@
+1.7.4 - 10/20/2016
+==================
+- Fixed Japanese translations in sports [TPS#9845] -JO
+
+1.7.3 - 02/18/2016
+==================
+- Updated wkhtmltopdf command options -BH
+
+1.7.2 - 11/04/2015
+==================
+- Updated report to work with disable auto run in performance settings -LG
+- Updated dropdown selection and viewlist to be case insensitive -LG
+
+1.7.1 - 10/28/2015
+==================
+- Fixed bug causing month view graphs to not display the correct time increment and export from the proper target page -LG
+- Fixed the sorting of names in the dropdown -LG
+- Fixed select dropdown to use first sorted name in the list on initial page load -LG
+- Update timeline template file to account for nodata from request file -LG
+
+1.7.0 - 04/15/2015
+==================
+- Added highcharts graphs as a default and a checkbox to allow users to use the old MRTS graphs -LG
+- Fixed bug to initially load the first legal name in the select list -LG
+
+1.6.7 - 03/10/2015
+==================
+- Added JPG export of report -SW
+
+1.6.6 - 02/18/2015
+==================
+- Fixed bug where script block was being output to CSV export -SW
+
+1.6.5 - 01/07/2015
+==================
+- Update bandwidth report to display host and interface when printing PDF -SW
+
+1.6.4 - 01/07/2015
+==================
+- Added searchable dropdowns (jquery.searchabledropdown) to the componenent host list - LG
+
+1.6.3 - 12/08/2014
+==================
+- Fixed 'view all available' table to show port description not just number -JO
+- Fixed numeric sorting to use a natural sort -JO
+- Fixed issue in bandwidth report so it will not list in 'see all available reports' any services that have been deleted -LG
+
+1.6.2 - 09/11/2014
+================
+- Fixed displaying deleted reports -JO
+- Fixed depregated ereg calls -JO
+
+1.6.0 - 03/25/2014
+================
+- The dropdown uses the service and host name instead of port/ip to display the list -JO
+
+1.5 - 2012-11-2
+===============
+- Add PDF output option -SW
+
+1.1 - 2012-11-2
+===============
+- Fixed bug where page was inaccessible if a stored host or service was deleted - MG
+
+1.0 2012-08-27
+==========
+- Fixed bug for page load if there were no valid devices being monitored - MG
+
+2012-02-29
+==========
+- Changed menu title to "Bandwidth Usage" - EG
+- Added CSV export option -MG 
+- Added dropdown to show another report quickly - EG
+- If no report selected, the first available report is now shown - EG
+- Added "Favorites" link - EG
+
+
+0.1 - 2011-11-09
+================
+- First release! (EG)
+- Stylesheet changes to fit XI - MG
+- Authorization checks added, requires host auth to view the report - MG

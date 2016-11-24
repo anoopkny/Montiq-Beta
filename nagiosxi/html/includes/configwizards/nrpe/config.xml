@@ -1,0 +1,16 @@
+<configwizard>
+    <templates>
+    </templates>
+    <logos>
+        <logo filename="linux.png"/>
+        <logo filename="centos.png"/>
+        <logo filename="debian.png"/>
+        <logo filename="fedora.png"/>
+        <logo filename="redhat.png"/>
+        <logo filename="ubuntu.png"/>
+        <logo filename="opensuse.png"/>
+        <logo filename="suse_enterprise.png"/>
+        <logo filename="aix.png"/>
+        <logo filename="freebsd.png"/>
+    </logos>
+</configwizard>

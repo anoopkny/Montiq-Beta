@@ -1,0 +1,6 @@
+
+- Add XI authorization and page header/footer code to match other reports/pages
+	NOTE: This should also make the style of the pages match XI
+	
+- Limit the available hosts to those the current user is authorized for.  You can use the is_authorized_for_host(0,host_name) function to determine this.
+	NOTE: There are several places where this auth check will need to be done

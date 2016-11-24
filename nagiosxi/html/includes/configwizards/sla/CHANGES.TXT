@@ -1,0 +1,38 @@
+1.1.5 - 10/31/2016
+==================
+- Fixed a bug when running the wizard that would not allow user to finish if the sla auth file did not exist [TPS#9968] -LG
+
+1.1.4 - 08/10/2016
+==================
+- Fixed bug not that was not allowing data retention when going back a step -LG
+- Fixed bug where the advanced options were not being added to the plugin commands -LG
+
+1.1.3 - 07/19/2016
+==================
+- Update to not have authorization limit on timeperiods -JO
+- Detect User macros -LG
+
+1.1.2 - 02/03/2016
+==================
+- Remove auto population of services and hosts for remote XI instances due to API limitations for security reasons -LG
+
+1.1.1 - 01/06/2016
+==================
+- Added file permission test for authorization file and a verbose explanation of the file format in step 1 -LG
+- Secure remote connection updated to work correctly with SSL and non SSL servers: this fixes jquery service selection -LG
+- Added --ssl flag to check_xisla.php plugin -LG
+- Added CURL setting to accept all certifications to check_xisla.php plugin -LG
+
+1.1.0 - 10/14/2015
+==================
+- Security updates -LG
+- Create xisla_auth.txt authorization file using chosen username after first step, fwrite ticket securely during final step in /usr/local/nagiosxi/var/components/ -LG
+- check_xisla.php (v1.1.0) plugin updated to use curl and sanitize auth file, host/service names -LG
+
+1.0.1 - 10/10/2015
+==================
+- Fixed PHP warning being thrown -JO
+
+1.0.0 - 09/16/2014
+==================
+- Initial Release -LG

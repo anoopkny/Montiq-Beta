@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_nna.py"/>
+    </plugins>
+    <templates>
+        <template filename="nna.cfg"/>
+    </templates>
+    <logos>
+        <logo filename='networkanalyzer.png'/>
+    </logos>
+</configwizard>

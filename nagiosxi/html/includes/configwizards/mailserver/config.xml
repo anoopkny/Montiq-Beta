@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="mailserver.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="mailserver.png"/>
+    </logos>
+    <plugins>
+        <plugin filename="check_bl"/>
+    </plugins>
+</configwizard>

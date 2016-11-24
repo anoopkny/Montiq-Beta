@@ -1,0 +1,59 @@
+1.7.9 - 03/28/2016
+==================
+- Add Hide/Show soft states button with help from Steve Beauchemin [TPS#8103] -LG
+
+1.7.8 - 11/09/2015
+==================
+- Fix columns headers not matching data -SW
+- Changed titles to "All" instead of Handled -SW
+
+1.7.7 - 10/28/2015
+==================
+- Fxied all problems acknowledged message displaying all the time -JO
+- Fixed missing translations -JO
+- Fixed including a version of jQuery that's not always available -JO
+
+1.7.6 - 10/07/2015
+==================
+- Add display of all service problems have been acknowledged -SW
+
+1.7.5 - 10/05/2015
+==================
+- Fixed issue where all hosts were showing as unhandled hosts down -JO
+- Fixed bug in Handled service problems -SW
+
+1.7.4 - 02/25/2015
+==================
+- Added ability to toggle handled problems in page footer -SW
+
+1.7.3 - 11/12/2014
+==================
+- Fix bug in SQL statement -JO
+
+2014-10-27
+=========
+Filter services that are in downtime out of the displayed list -SW
+
+2014-06-10
+=========
+Filter hosts that are in downtime out of the displayed list -SL
+
+2014-03-24
+=========
+- Added links to hosts/services -SW
+
+2013-01-21
+=========
+- Update to use local jquery file -SW
+
+2012-02-01
+=========
+- Fixed issue with hardcoded DB credentials - MG
+
+2012-02-01
+==========
+- Fixed countdown - SW
+
+2012-01-12
+==========
+- Fixed errors relating to missing opscreen_component_config_func() function - EG

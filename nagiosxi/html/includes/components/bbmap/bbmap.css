@@ -1,0 +1,37 @@
+
+div.bbmap_dashlet div.outer div.inner table.infotable {
+  /*table-layout: fixed; */
+  /*width: 99%; */
+  *margin-left: -254px;/*ie7*/
+}
+div.bbmap_dashlet div.outer div.inner table.infotable th, div.bbmap_dashlet div.outer div.inner table.infotable td {
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding:2px;
+}
+div.bbmap_dashlet div.outer div.inner table.infotable th {
+  position:absolute;
+  *position: relative; /*ie7*/
+  left:0;
+  background: none repeat scroll 0 0 #ffffff;
+  white-space: nowrap;
+}
+div.bbmap_dashlet div.outer div.inner table.infotable td {
+  text-align:center;
+}
+div.bbmap_dashlet div.outer {
+  position:relative;
+  width: 100%;
+}
+div.bbmap_dashlet div.inner {
+  overflow-x:auto;
+  overflow-y:visible;
+}
+
+.bbmap_map_outboard {
+  display: block;
+}
+
+.infotable_hosts { width: 230px; overflow: hidden; }
+div.bbmap_dashlet div.outer div.inner table.infotable thead td { vertical-align: bottom; max-width: 24px; width: 24px; height: 160px; }
+.bbmapverticaltext { text-align: left; transform: rotate(-90deg); white-space: nowrap; padding-left: 5px; }

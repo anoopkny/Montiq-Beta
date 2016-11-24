@@ -1,0 +1,19 @@
+1.2.3 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.2.2 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+06/25/2014
+==========
+Add ability to specify redirect action - SW
+
+04/05/2012
+==========
+Fixed so SSL is used on host as well as service if checked - SW
+
+??/??/????
+==========
+Initial release

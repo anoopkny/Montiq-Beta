@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="switch.cfg"/>
+    </templates>
+    <plugins>
+        <plugin filename="check_ifoperstatnag"/>
+    </plugins>
+	<logos>
+		<logo filename="switch.png" />
+	</logos>
+</configwizard>

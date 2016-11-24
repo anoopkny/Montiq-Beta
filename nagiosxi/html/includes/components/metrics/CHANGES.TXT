@@ -1,0 +1,42 @@
+1.2.9 - 09/06/2016
+==================
+- Fixed ability to save tabs on scheduled page [TPS#9050] -BH
+
+1.2.8 - 06/06/2016
+==================
+- Fixed XSS vulnerablitiy -JO
+
+1.2.7 - 03/29/2016
+==================
+- Fixed XSS vulnerability -BH
+
+1.2.6 - 02/18/2016
+==================
+- Converted lstr to gettext -BH
+
+1.2.5 - 12/12/2015
+==================
+- Fixed styling on % utilization bar graphic and force 2 decimal places for proper alignment -LG
+
+1.2.4 - 11/16/2015
+==================
+- Fixed a couple missing translations -JO
+
+1.2.3 - 04-27-2015
+==================
+- Added NRPE, WMI and NCPA agents into queries so they will display by default if they have performace data -LG
+- Updated graphs to display as HighCharts by default and added a dropdown to select time range -LG
+- Added an advanced options section with two options: remove the details column from the summary table and to utilize the old MRTG graphs -LG
+- Update styling to confrom with the rest of XI 5 and fixed some gauge and table styling bugs -LG
+
+1.2.2 - 10-21-2014
+==================
+- Added disable auto run -JO
+
+1.2.1 - 05-08-2014
+==================
+- Bug fix for putting nothing in top -JO
+
+1.0 - 02-22-2011
+==================
+- Initial Release -EG

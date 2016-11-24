@@ -1,0 +1,28 @@
+1.5.8 - 07/22/2016
+==================
+- Detect User macros -LG
+
+1.5.7 - 01/29/2015
+==================
+- Fixed typo from min to % [TPS#7608] -BH
+
+1.5.6 - 07/22/2015
+==================
+- Minor changes for XI 5 -JO
+- Updated to default service_descriptions for all services will include the database -SW
+
+02/11/2015
+==========
+- indentation problem with import cPickle/pickle
+
+01/22/2015
+==========
+- Fixed extraneous ';' in check_mssql_database.py. -BD-G
+
+12/04/2012
+==========
+-Fix wizards to not hard-code IP address in $ARG1$.  -SW
+
+??/??/????
+==========
+Initial Release

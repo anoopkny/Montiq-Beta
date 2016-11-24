@@ -1,0 +1,7 @@
+1.1.3  04-27-2016
+=================
+- Fix for TPS#8313, Errors in Cent7 in General Configuration -BH
+
+1.1 10-6-2011
+=================
+- Fixed hardcoded http url in menu link - NS

@@ -1,0 +1,3 @@
+Plugin obtained from:
+
+http://exchange.nagios.org/directory/Plugins/Network-Protocols/RADIUS/check-radius-adv/details

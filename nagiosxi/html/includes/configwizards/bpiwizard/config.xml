@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="bpiwizard.cfg"/>
+    </templates>
+    <plugins>
+        <plugin filename="check_bpi.php"/>
+    </plugins>
+    <logos>
+        <logo filename="bpiwizard.png"/>
+    </logos>
+</configwizard> 

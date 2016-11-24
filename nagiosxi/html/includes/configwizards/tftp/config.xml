@@ -1,0 +1,11 @@
+<configwizard>
+	<plugins>
+		<plugin filename="check_tftp.sh" />
+	</plugins>
+	<templates>
+		<template filename="tftp.cfg" />
+	</templates>
+	<logos>
+		<logo filename="tftp.png" />
+	</logos>
+</configwizard>

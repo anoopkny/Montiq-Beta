@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="nagiostats.cfg"/>
+    </templates>
+    <plugins>
+        <plugin filename="check_nagios_performance.php"/>
+    </plugins>
+    <logos>
+        <logo filename="nagiostats.png"/>
+    </logos>
+</configwizard> 

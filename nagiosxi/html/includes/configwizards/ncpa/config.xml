@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_ncpa.py"/>
+    </plugins>
+    <templates>
+        <template filename="ncpa_agent.cfg"/>
+    </templates>
+    <logos>
+        <logo filename='ncpa.png'/>
+    </logos>
+</configwizard>

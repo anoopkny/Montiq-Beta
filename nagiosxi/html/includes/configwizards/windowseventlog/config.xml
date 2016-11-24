@@ -1,0 +1,10 @@
+<configwizard>
+    <templates>
+        <template filename="windowseventlog.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="windowseventlog.png"/>
+    </logos>
+    <plugins>
+    </plugins>
+</configwizard>

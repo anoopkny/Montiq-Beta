@@ -1,0 +1,8 @@
+<configwizard>
+    <templates>
+        <template filename="oracleserverspace.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="oracleserverspace.png"/>
+    </logos>
+</configwizard>

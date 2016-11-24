@@ -1,0 +1,15 @@
+1.1.2 - 06/27/2016
+==================
+- More minor styling changes -JO
+
+1.1.1 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+2012-07-05
+==========
+- Removed notification_interval from setup -SW
+
+2012-05-18
+==========
+- Changed 'is_volatile' setting in 'xiwizard_generic_service' template to zero (0) -EG

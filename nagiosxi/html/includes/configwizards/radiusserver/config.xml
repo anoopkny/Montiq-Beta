@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_radius_adv"/>
+    </plugins>
+    <templates>
+        <template filename="radiusserver.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="radiusserver.png"/>
+    </logos>
+</configwizard>

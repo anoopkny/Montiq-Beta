@@ -1,0 +1,11 @@
+1.0.2 - 07/08/2016
+==================
+- Detect User macros -LG
+
+1.0.1 - 07/21/2015
+==================
+- Minor changes for XI 5 -JO
+
+2011-09-25
+==========
+- Hostname defaults to address if reverse lookup fails - EG

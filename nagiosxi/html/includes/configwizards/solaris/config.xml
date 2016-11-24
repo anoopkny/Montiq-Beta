@@ -1,0 +1,8 @@
+<configwizard>
+    <templates>
+        <template filename="solaris.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="solaris.png"/>
+    </logos>
+</configwizard>

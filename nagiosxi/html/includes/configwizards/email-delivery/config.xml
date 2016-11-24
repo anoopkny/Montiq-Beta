@@ -1,0 +1,16 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_imap_receive_epn"/>
+        <plugin filename="check_email_delivery"/>
+        <plugin filename="check_smtp_send"/>
+        <plugin filename="check_email_delivery_epn"/>
+        <plugin filename="check_smtp_send_epn"/>
+        <plugin filename="check_imap_receive"/>
+    </plugins>
+    <templates>
+        <template filename="email-delivery.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="email-delivery.png"/>
+    </logos>
+</configwizard>

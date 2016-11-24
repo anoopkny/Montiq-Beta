@@ -1,0 +1,11 @@
+<configwizard>
+	<plugins>
+		<plugin filename="check_mountpoints.sh" />
+	</plugins>
+	<templates>
+		<template filename="mountpoint.cfg" />
+	</templates>
+	<logos>
+		<logo filename="mountpoint.png" />
+	</logos>
+</configwizard>

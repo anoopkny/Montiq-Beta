@@ -1,0 +1,10 @@
+<configwizard>
+    <templates>
+        <template filename="vmware.cfg"/>
+    </templates>
+    <logos>
+    </logos>
+    <plugins>
+        <plugin filename="check_esx3.pl"/>
+    </plugins>
+</configwizard>

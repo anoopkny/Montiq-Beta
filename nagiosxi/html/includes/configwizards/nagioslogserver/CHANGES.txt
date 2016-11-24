@@ -1,0 +1,39 @@
+1.0.5 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.0.4 - 11/09/2015
+==================
+- Fixed additional bug causing text sting queries with UTF8 chars being stripped from command -SW
+
+1.0.3 - 11/03/2015
+==================
+- Fixed bug causing text sting queries with UTF8 chars being stripped from command -SW
+
+1.0.2 - 11/03/2015
+==================
+- Fixed bug causing quoted text queries to not be written properly -SW
+- fixed help tooltip for "Over Last Minutes" -SW
+
+1.0.1 - 07/22/2015
+==================
+- Minor changes for XI 5 -JO
+
+2014-10-01
+==========
+- Fix validating minutes for text/JSON/file queries was using value for saved queries. -EM
+
+2014-09-30
+==========
+- Get query list from Log Server; load raw JSON queries from LS when creating services for 'Saved Queries'. -EM
+- More validation of form values; add/improve descriptions and messages. -EM
+- The plugin shouldn't save cookies. -EM
+
+2014-09-23
+==========
+- Argument validation, temporary logo, templates, sanity.sh, config.xml. -EM
+- Move plugin from nagioslogserver repo to its new home here. -EM
+
+2014-09-22
+==========
+- Structure and start of configuration wizard for monitoring Nagios Log Server queries. -EM

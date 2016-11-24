@@ -1,0 +1,16 @@
+1.2.3 - 10/11/2015
+==================
+- Fixed default to not enabled in actual notification area -JO
+
+2012-11-08
+==========
+- Fix bug where customized messages were not used -SW
+
+2012-02-29
+==========
+- Added links to iSMS homepage - EG
+- Added Multi-Tech logo to settings pages - EG
+
+2012-01-12
+==========
+- Initial release

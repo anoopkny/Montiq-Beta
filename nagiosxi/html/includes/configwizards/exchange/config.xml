@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="exchange.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="exchange2010.png"/>
+    </logos>
+    <plugins>
+        <plugin filename="check_bl"/>
+    </plugins>
+</configwizard>

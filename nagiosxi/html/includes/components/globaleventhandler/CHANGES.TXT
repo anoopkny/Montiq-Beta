@@ -1,0 +1,12 @@
+2014-03-05
+==========
+- Check for host and service scheduled downtime then let the user choose to send or not send traps during downtime -LG
+- Adjust default commands to reflect updates -LG
+
+2012-03-13
+==========
+- Debugging information only printed if subsystem logging is enabled -MG
+
+2012-03-02
+==========
+- A warning is now printed if global event handlers are disabled (which would result in the component not working) - EG

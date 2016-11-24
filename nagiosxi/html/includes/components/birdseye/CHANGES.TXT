@@ -1,0 +1,26 @@
+3.1.2 - 10/24/2016
+==================
+- Updated JS to use get requests not posts -JO
+
+3.1.1 - 03/28/2016
+==================
+- Added option to show Hard or Soft states with help from Steve Beauchemin [TPS#8103] -LG
+
+==================
+- Change default to Hide handled, also optimized backend queries to pull WAY less data -SW
+
+3.0.3 - 11/06/2014
+==================
+- Added Ability to toggle Handled Problems -SW
+
+3.0.2 - 11/06/2014
+==================
+- Fixed long names not breaking and causing weird view issues (Troy posted on forum) -JO
+
+3.0.1 - 10/06/2014
+==================
+- Fixed bug where duplicate hosts would show if the host was down... -JO
+
+3.0 - 10/07/2013
+================
+- Initial Release

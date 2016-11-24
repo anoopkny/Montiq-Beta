@@ -1,0 +1,26 @@
+Simple Checkcommands based on check_nt to monitor the Exchange Server (V 5.5) Health, Queues, Mailloops, etc.
+command[ExchangeIMC_queued_Outbound]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIMC\Queued Outbound" -w 10 -c 25
+
+command[ExchangeIMC_queued_Inbound]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIMC\Queued Inbound" -w 2 -c 5
+
+command[ExchangeIMC_Connections_Outbound]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIMC\Connections Outbound", -w 5 -c 10
+
+command[ExchangeIMC_Connections_Inbound]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIMC\Connections Inbound" -w 5 -c 10
+
+command[ExchangeIMC_final_delivery]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIMC\Queued MTS-IN" -w 5 -c 10
+
+command[ExchangeIMC_to_convert]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIMC\Queued MTS-OUT" -w 5 -c 10
+
+command[ExchangeIMC_Loops_detected]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIMC\Total Loops Detected" -c 1
+
+command[ExchangeDS_AB_Browses]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeDS\AB Browses/sec" -w 10 -c 25
+
+command[ExchangeIS_private_recoverable_items]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIS Private\Total Count of Recoverable Items" -w 100 -c 250
+
+command[ExchangeIS_private_recoverable_size]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIS Private\Total Size of Recoverable Items" -w 15000 -c 30000
+
+command[ExchangeIS_private_delivery_time]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v COUNTER -l "\\MSExchangeIS Private\Average Delivery Time" -w 15 -c 30
+
+command[NTExchangeserver]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v SERVICESTATE -l MSExchangeDS,MSExchangeES,MSExchangeIMC,MSExchangeIS,MSExchangeMTA,MSExchangeSA
+
+command[NAVMX]=/usr/local/nagios/libexec/check_nt -H $HOSTADDRESS$ -p 1248 -v SERVICESTATE -l "NavExchange" 

@@ -1,0 +1,8 @@
+<configwizard>
+    <templates>
+        <template filename="mysqlquery.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="mysql.png"/>
+    </logos>
+</configwizard>

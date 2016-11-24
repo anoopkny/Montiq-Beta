@@ -1,0 +1,27 @@
+1.2.5 - 07/08/2016
+==================
+- Detect User macros -LG
+
+1.2.4 - 07/21/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.2.3 - 12/10/2014
+==================
+- Updated osx logo to latest apple logo -JO
+
+2014-04-28
+==========
+- Fix undefined offsets repopulating 'Processes' fields when moving back from previous steps. -EM
+
+2013-05-08
+==========
+- Remove I/O warning and critical options as they are not used and as far as I can see there is not a consistent way to determine this on OSX -SW
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+03/??/2012
+================
+Initial release

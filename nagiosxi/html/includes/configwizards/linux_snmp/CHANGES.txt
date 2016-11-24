@@ -1,0 +1,64 @@
+1.4.8 - 07/08/2016
+==================
+- Detect User macros -LG
+- Fixed hard coded failsafe timeout [TPS#8961] -BH
+
+1.4.7 - 04/11/2016
+==================
+- Added option to choose no priviledged password encryption for authNoPriv queries [TPS#8182] -LG
+- Added the ability for users to double-click add a disk -LG
+- Fixed bug to successfuly run smart scan results when using user macros on input fields [TPS#8196] -LG
+- Note: noAuthNoPriv queries using snmpv3 not supported in check_snmp perl plugins -LG
+
+1.4.6 - 12/30/2015
+==================
+- Add community macro replace to make the snmpwalk work using macros -LG
+
+1.4.5 - 11/06/2015
+==================
+- Update snmpwalk smart scan to timeout after 10 seconds -LG
+- Update scan failure message with OID names for troubleshooting -LG
+
+1.4.4 - 08/12/2015
+==================
+- Update snmpwalk smart scan to display a table of processes and disks to the right of the input fields -LG
+
+1.4.3 - 07/21/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.4.2 - 2014-05-20
+==================
+- Added snmpwalk smart scans for disk and processes that will give the user an autocomplete list of found processes/disks -LG
+
+1.4.1 - 2014-04-28
+==================
+- Fix undefined offsets when repopulating 'Processes' fields when moving back from previous steps. -EM
+
+2013-08-29
+==========
+- Update plugins to allow the addition of octet length -SW
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+2012-06-20
+==========
+- Increased processes fields to allow for 10 entries - EG
+
+2012-04-26
+==========
+- Fix so v3 snmp works -SW
+
+2012-03-27
+==========
+- Bug fix, fixed undefined variables for checkboxes -SW
+
+01/13/2012
+==================
+- Fixed incorrect server icon associated with wizard -SW
+
+??/??/????
+==================
+Initial Release

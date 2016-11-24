@@ -1,0 +1,23 @@
+1.5.3 - 07/08/2016
+==================
+- Detect User macros -LG
+
+1.5.2 - 07/21/2015
+==================
+- Minor changes for XI 5 -JO
+
+2013-04-26
+==========
+- Added install.sh to install required lftp package -SW
+
+2012-11-05
+==========
+- Fixed problem where file exists -SW
+
+2012-10-25
+==========
+- Fixed $HOSTNAME$ in Template -SW
+
+???-??-??
+==========
+- initial release

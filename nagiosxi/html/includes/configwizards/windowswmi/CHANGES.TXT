@@ -1,0 +1,83 @@
+2.0.7 - 08/09/2016
+==================
+- Added field to allow user to adjust the check_wmi_plus.pl plugin output truncate length (default 8192 bytes) when the smart scans are being truncated causing missing services and processes [TPS#9250] -LG
+
+2.0.6 - 07/19/2016
+==================
+- Detect User macros [TPS#6739] -LG
+
+2.0.5 - 06/22/2016
+==================
+- Fixed small typo -JO
+
+2.0.4 - 02/18/2016
+==================
+- Fixed bug to successfuly run smart scan results when using user macros- extend to work on username and auth file as well -LG
+
+2.0.3 - 02/18/2016
+==================
+- Fixed bug to successfuly run smart scan results when using user macros -SW
+
+2.0.2 - 09/18/2015
+==================
+- Added section to create symlinks for wizard on el7 systems -SW
+- Update plugin paths -SW
+- Fix bug in install.sh when installing manually -SW
+
+2.0.1 - 08/12/2015
+==================
+- Update check_wmi_plus.pl to 1.60 -SW
+
+2.0.0 - 08/12/2015
+==================
+- Updated wizard to run a smart scan on Processes, Services and Disks and display the findings in a select field to the right that can be added to the corresponding input fields -LG
+
+1.10.3 - 07/25/2015
+===================
+- Minor changes for XI 5 -JO
+
+2014-04-28
+==========
+- Fix undefined offsets repopulating 'Services', 'Processes', and 'Event Logs' fields when moving back from previous steps. -EM
+
+1.10 02/04/2014
+===============
+- Fixed pagefile check to use the non-deprecated version "-m checkpage" instead of "-m checkmem -s page" -JO
+
+2013-12-12
+==========
+- Fix severity flip flopped should be 2 = warning 1 = error. -SW
+
+2013-12-06
+==========
+- Fix for event log commands -SW
+
+2013-12-04
+==========
+- Fix for description of internationalization -SW
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+2012-08-28
+==========
+- Added check to verify that wmic is installed
+- added install.sh script to be picked up by 2012 installer
+
+2012-03-26
+==========
+- Bug fix, fixed undefined variables for checkboxes -SW
+
+1.101 - 12/21/2011
+==================
+- upgraded check_wmi_plus to 1.49 YR
+
+1.1 - 11/30/2011
+================
+- Upgraded check_wmi_plus to 1.48 - EG
+- Added escaping of command line params - EG
+
+1.0 - 05/08/2011
+================
+- First release - EG

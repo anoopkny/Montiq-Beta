@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="nagiosxiserver.cfg"/>
+    </templates>
+    <plugins>
+        <plugin filename="check_nagiosxiserver.php"/>
+    </plugins>
+    <logos>
+        <logo filename="nagiosxiserver.png"/>
+    </logos>
+</configwizard>

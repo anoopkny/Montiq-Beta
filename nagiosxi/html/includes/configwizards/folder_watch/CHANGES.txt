@@ -1,0 +1,12 @@
+1.0.2 - 07/08/2016
+==================
+- Detect User macros -LG
+
+1.0.1 - 06/01/16
+================
+- Bug fix where username is missing when using the show hidden files feature [TPS#8661] -LG
+
+1.0.0 - 09/10/15 
+================
+- Initial release -LG
+- Update check_files.pl (v0.421) to folder_watch.pl (v0.43_nagios) -LG

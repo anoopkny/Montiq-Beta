@@ -1,0 +1,52 @@
+1.5.7 - 07/22/2016
+==================
+- Detect User macros -LG
+
+1.5.6 - 07/22/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.5.5 - 02/11/2015
+==================
+- Updated check_mssql plugin -SW
+
+1.5.4 - 11/20/2014
+==================
+Fixed to comply with Nagios threshold guidelines -SW
+
+1.5.3 - 07/31/2014
+==================
+- Fixed some wording that was still off -JO
+
+1.5.2 - 07/11/2014
+==================
+- Updated warning/critical names so they more easily reflect what they are for -JO
+
+6/18/2013
+=========
+- Updated underlying plugin with buggy query warning/critical values
+
+1/9/2013
+==========
+- Updated plugin that fixed incorrect OK status bug -NS
+- Fixed escaping issues with complex queries - NS
+
+12/04/2012
+==========
+-Fix wizards to not hard-code IP address in $ARG1$.  -SW
+
+08/30/2012
+===========================
+- Now returns perfdata and accepts decimal values. - NS
+
+07/07/2012
+===========================
+- Added ability to connect to instances. - NS
+
+09/22/11
+===========================
+- Added additional flag option to show actual query on check plugin - NS
+
+07/27/2011
+==========
+- Fixed problems with losing data when using the back button. - NS

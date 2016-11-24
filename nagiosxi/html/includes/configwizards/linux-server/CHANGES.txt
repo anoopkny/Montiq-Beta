@@ -1,0 +1,58 @@
+1.5.3 - 08/15/2016
+==================
+- Update default services when running the wizard against Ubuntu/Debian -LG
+
+1.5.2 - 07/08/2016
+==================
+- Detect User macros -LG
+
+1.5.1 - 07/21/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.5.0 - 12/02/2014
+==================
+- Added SUSE Enterprise, OpenSUSE, and Fedora as linux distros to select and have defaults for -JO
+- Added in "Other" linux that will send user to the default NRPE wizard -JO
+- Updated Linux images -JO
+- Updated documentation/downloads for NRPE agent on Linux distros -JO
+- Fixed missing gettexts -JO
+
+1.4.2 - 07/16/2014
+==================
+- Fixed some typos for Warning/Critical values -JO
+
+2014-04-28
+==========
+- Fix undefined index for 'APT Update Status' checkbox, now 'checked' by default. -EM
+- Fix bug repopulating 'Services' and 'Processes' fields when moving back from previous steps. -EM
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+2012-03-27
+==========
+- Bug fixes, fixed undefined variables for checkboxes -SW
+
+02/07/2012
+============
+- More updates to increase support for Ubuntu and Debian
+
+01/27/2012
+============
+- Fix for incorrect values provided for memory plugin -SW
+- Also, re-worked and added Ubuntu and Debian back in linking to the the install doc and not the Agent download. -SW
+
+
+01/23/2012
+===========
+- Added option for non-SSL communication with remote NRPE agents - EG
+
+01/13/2012
+================
+- Removed linux server options that are unsupported with this wizard (Non RHEL/CentOS systems) -SW
+
+??/??/????
+================
+Initial release

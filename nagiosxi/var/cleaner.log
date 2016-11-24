@@ -1,0 +1,15 @@
+PHP Notice:  Undefined index: nagiosxi in /usr/local/nagiosxi/html/includes/db.inc.php on line 488
+PHP Notice:  Undefined index: nagiosxi in /usr/local/nagiosxi/html/includes/db.inc.php on line 488
+PHP Notice:  Undefined index: nagiosxi in /usr/local/nagiosxi/html/includes/db.inc.php on line 488
+DIR: /usr/local/nagiosxi/nom/checkpoints/nagioscore
+NUMFOUND: 4
+KEEPING ALL GOOD CHECKPOINTS
+DIR: /usr/local/nagiosxi/nom/checkpoints/nagioscore/errors
+ls: cannot access /usr/local/nagiosxi/nom/checkpoints/nagioscore/errors/*.gz: No such file or directory
+NUMFOUND: 0
+KEEPING ALL ERROR CHECKPOINTS
+DIR: /usr/local/nagiosxi/nom/checkpoints/nagiosxi
+NUMFOUND: 4
+KEEPING ALL SNAPSHOTS
+
+PROCESSED 0 COMMANDS

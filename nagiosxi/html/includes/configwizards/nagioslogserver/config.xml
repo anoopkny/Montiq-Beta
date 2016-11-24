@@ -1,0 +1,11 @@
+<configwizard>
+	<logos>
+		<logo filename='nagioslogserver.png' />
+	</logos>
+	<plugins>
+		<plugin filename="check_nagioslogserver.php" />
+	</plugins>
+	<templates>
+		<template filename="nagioslogserver.cfg" />
+	</templates>
+</configwizard>

@@ -1,0 +1,13 @@
+1.0.2 - 10/17/2016
+==================
+- Fixed issue not allowing JS files that were determined to be "text/html" -JO
+- Fixes various issues with FireFox calling file types non-standard names -JO
+- Fixed various issues with IE and types of files -JO
+
+1.0.1 - 10/10/2016
+==================
+- Fixed initial permissions on css, images, and javascript folders -JO
+
+1.0.0 - 10/03/2016
+==================
+- Initial release

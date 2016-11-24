@@ -1,0 +1,90 @@
+2.1.11 - 10/24/2016
+===================
+- Fixed XSS vulnerabilities -JO
+
+2.1.10 - 10/21/2016
+===================
+- Fixed toggle issue when checkbox is already checked [TPS#9846] -JO
+- Fixed translation issues on the "Check All Items" button after clicking [TPS#9838] -JO
+
+2.1.9 - 04/04/2016
+==================
+- Removed pending && unchecked services from needing to be acknowledged [TPS#8155] -BH
+
+2.1.8 - 11/16/2015
+==================
+- Generate Nagios XI auditlog messages when scheduled downtime is submitted or removed  [TPS#7266] -LG
+
+2.1.7 - 11/16/2015
+==================
+- Handle permissions for users with read-only selected better -JO
+
+2.1.6 - 10/29/2015
+==================
+- Fixed garbled Japanese characters -JO
+- Fixed schedule immediate check requiring comment -JO
+
+2.1.5 - 10/11/2015
+==================
+- Fixed host sorting algorithm -JO
+
+2.1.4 - 08/27/2015
+==================
+- Updated for XI 5 -JO
+
+2.1.3 - 05/08/2015
+==================
+- Fixed bug where time for downtime was disabled when selecting "Both" option -SW
+
+2.1.2 - 04/28/2015
+==================
+- Add ability to perform actions on hosts/services in a pending state -SW
+
+2.1.1 - 10/23/2014
+==================
+- Remove \ from the acknowledgements. Thanks Brian Christiansen! -JO
+
+2.1 - 2/06/2014
+===============
+- Added performance modification suggested by Kjell Sundtjonn. Thank Kjell! -SW
+
+1.9 - 9/23/2013
+===============
+- Fixed a bug where outside character sets would be completely removed -NS
+- Fixed a logic bug with error reporting and acknowledgments/schedule downtime -NS
+
+1.7 - 05/20/2012
+================
+- Fix bug where name had apostrophe in it -SW
+
+1.6 - 03/08/2013
+================
+- Add ability to mass delete downtimes. -SW
+
+1.5 - 02/18/2013
+================
+- Fix bug where read-only users could use component. -SW
+
+1.4 - 06/18/2012
+================
+- Added checkbox options for sticky, notifications, and persistent acknowledgments. Requested by (Doh and Mitchell)
+
+1.3 - 02/07/2012
+================
+- fixes for XSS vulnerability - SW
+
+1.2	- 11/16/2011
+================
+- Fixed potential security issues with request variables
+- Changed hard-coded cmd pipe path to use the patch specified in the global $cfg
+
+1.1 - 09/02/2011
+================
+- Thanks Troy Lea for bug reports and feature suggestions! 
+- Fixed bug that put extra exclamation points in comment fields -MG
+- Comments now show full user's name instead of XI user by default -MG 
+- Added "schedule immediate check" as an option for the selected hosts/services -MG
+
+1.0 - 05/2011
+=============
+-version 1.0 released 

@@ -1,0 +1,16 @@
+1.1.2 - 09/30/2016
+==================
+- Added detect user macros -LG
+- Fixed language gettext values -JO
+
+1.1.1 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+03/27/2013
+==========
+- Bug fixes, fixed URL and CONFIGFILE constant -SW
+
+??/??/????
+================
+Initial release

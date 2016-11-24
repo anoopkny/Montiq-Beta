@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_mssql"/>
+    </plugins>
+    <templates>
+        <template filename="mssqlquery.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="mssqlquery.png"/>
+    </logos>
+</configwizard>

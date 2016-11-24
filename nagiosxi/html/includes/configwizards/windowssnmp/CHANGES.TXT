@@ -1,0 +1,57 @@
+1.4.8 - 07/19/2016
+==================
+- Detect User macros [TPS#6739] -LG
+- Fixed hard coded failsafe timeout [TPS#8961] -BH
+
+1.4.7 - 04/11/2016
+==================
+- Added option to choose no priviledged password encryption for authNoPriv queries [TPS#8182] -LG
+- Fixed bug to successfuly run smart scan results when using user macros on input fields [TPS#8196] -LG
+- Note: noAuthNoPriv queries using snmpv3 not supported in check_snmp perl plugins -LG
+
+1.4.6 - 02/18/2016
+==================
+- Updated to add -o option to pass in max-size of the SNMP message, usefull in case of Too Long responses. -SW
+- Update snmpwalk smart scan to timeout after 10 seconds -LG
+- Update scan failure message with OID names for troubleshooting -LG
+- Added SNMPv3 Privledged Protocol that was missing in step 1 -LG
+
+1.4.4 - 08/12/2015
+==================
+- Update snmpwalk smart scan to display a table of processes and services to the right of the input fields -LG
+
+1.4.3 - 07/25/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.4.2 - 2014-05-21
+==================
+- Added snmpwalk smart scans for services and processes that will give the user an autocomplete list of found processes/services -LG
+
+2014-04-28
+==========
+- Fix undefined offsets repopulating 'Services' and 'Processes' fields when moving back from previous steps. -EM
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+2012-06-20
+==========
+- Increased services and processes fields to allow for 10 of each - EG
+
+2012-04-26
+==========
+- Fix so v3 snmp works -SW
+
+2012-03-26
+==========
+- Bug fix, fixed undefined variables for checkboxes -SW
+
+2012-03-02 
+==========
+- Increased max_msg_size from 6000 to 10000 in check_snmp_win.pl Ludmil's test indicated 6000 still wasn't enough - SW
+
+2012-01-20 
+==========
+- Increased max_msg_size from 5000 to 6000 in check_snmp_win.pl to better support Windows versions newer than Server 2003 as per suggestions of Neil Bingham

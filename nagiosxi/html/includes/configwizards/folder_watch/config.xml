@@ -1,0 +1,11 @@
+<configwizard>
+	<plugins>
+		<plugin filename="folder_watch.pl" />
+	</plugins>
+	<templates>
+		<template filename="folder_watch.cfg" />
+	</templates>
+	<logos>
+		<logo filename="folder_watch.png" />
+	</logos>
+</configwizard>

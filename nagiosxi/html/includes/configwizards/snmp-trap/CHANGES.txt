@@ -1,0 +1,19 @@
+1.5.2 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.5.1 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.5.0 - 2015-03-02
+==================
+- Add a check for snmptraphandling.py to verify proper configuration of SNMP to use the wizard - LG
+
+1.4.0 - 2014-07-15
+==================
+- Previous changes -SW
+
+1.0.0 - ????-??-??
+==================
+- Initial Release

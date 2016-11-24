@@ -1,0 +1,16 @@
+<configwizard>
+    <templates>
+        <template filename="linux-server.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="linux-server.png"/>
+        <logo filename="centos.png"/>
+        <logo filename="debian.png"/>
+        <logo filename="fedora.png"/>
+        <logo filename="oracle-linux.gif"/>
+        <logo filename="redhat.png"/>
+        <logo filename="ubuntu.png"/>
+        <logo filename="suse_enterprise.png"/>
+        <logo filename="opensuse.png"/>
+    </logos>
+</configwizard>

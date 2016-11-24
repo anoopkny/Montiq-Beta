@@ -1,0 +1,15 @@
+1.1.2 - 07/08/2016
+==================
+- Detect User macros -LG
+
+1.1.1 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.1.0 - 05/19/2014
+==================
+- Created a replacement plugin for check_domain.sh with check_domain.php -LG
+
+1.0.0 - ??/??/2014
+==================
+- Initial release

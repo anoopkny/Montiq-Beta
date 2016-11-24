@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="watchguard.cfg"/>
+    </templates>
+    <plugins>
+        <plugin filename="check_snmp_generic.pl"/>
+    </plugins>
+	<logos>
+		<logo filename="watchguard.png" />
+	</logos>
+</configwizard>

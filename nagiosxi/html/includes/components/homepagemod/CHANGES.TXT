@@ -1,0 +1,38 @@
+1.1.4 - 06/09/2016
+==================
+- Fixed checkbox being set by default even though it shouldn't be -JO
+
+1.1.3 - 03/29/2016
+==================
+- Fixed potential (unlikely) XSS -BH
+
+1.1.2 - 02/05/2016
+==================
+- Fixed home page mod not showing up -JO
+
+1.1.1 - 11/30/2015
+==================
+- Fix garbled Japanese characters -JO
+
+1.1.0 - 09/23/2015
+==================
+- Allow blank home page titles -JO
+- Updated interface to be easier to understand -JO
+
+1.0.1 - 05/05/2015
+==================
+- Fixed cancel button link when opening useropts page from main homepage -JO
+
+2012-09-14
+==========
+- Fixed bug where Homepage mod options would always be disabled after saving preferences from Manage Components page - MG
+
+2012-09-07
+==========
+- Fixed issue where home page mods would be silently disabled by default -MG
+- Added user message if home page mods are disabled - MG
+
+2012-08-21
+==========
+- Component is now enabled by default (for 2012 release) - EG
+- Added differentiator between "default location" and "home dashboard" for 2012 release - EG

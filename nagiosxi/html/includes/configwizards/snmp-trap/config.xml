@@ -1,0 +1,10 @@
+<configwizard>
+    <templates>
+        <template filename="snmptrap.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="snmptrap.png"/>
+    </logos>
+    <plugins>
+    </plugins>
+</configwizard>

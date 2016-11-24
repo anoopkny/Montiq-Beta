@@ -1,0 +1,40 @@
+1.5.5 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.5.4 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.5.3 - 02/05/2015
+==================
+- Added default '-w 5 -c 10' for check_user -BD-G
+
+1.5.2 - 12/10/2014
+==================
+- Updated icons to be the same as those in linux-server wizard -JO
+
+2014-04-28
+==========
+- Fix bug repopulating 'SSH Commands' fields when moving back from previous steps. -EM
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+03/27/2012 - 1.2
+===========================
+- Added option and logo for monitoring Mac OS/X - EG
+
+2012-03-26
+==========
+- Bug fix, fixed undefined variables for checkboxes -SW
+
+
+01/13/2011 - 1.1
+===========================
+- Fixed duplicate default check for check_disk -SW
+
+
+07/16/2011 - First Release
+===========================

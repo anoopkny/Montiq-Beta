@@ -1,0 +1,8 @@
+<configwizard>
+    <templates>
+        <template filename="macosx.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="osx.png"/>
+    </logos>
+</configwizard>

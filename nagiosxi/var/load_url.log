@@ -1,0 +1,47 @@
+CURL ERROR
+ TIME: 2016-11-23T20:40:43+05:30
+Array
+(
+    [url] => http://localhost/nagiosxi/backend/
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.004735
+    [namelookup_time] => 0.004186
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+    [primary_ip] => 127.0.0.1
+    [primary_port] => 80
+    [local_ip] => 
+    [local_port] => 0
+    [redirect_url] => 
+)
+
+URL:
+ http://localhost/nagiosxi/backend/?cmd=getconninfo&orderby=last_checkin_time%3Ad&records=1&subsystem=95n2sn26&uid=0 
+ OPTIONS: 
+Array
+(
+    [return_info] => 1
+    [method] => post
+    [timeout] => 15
+)
+
+END LOGENTRY
+

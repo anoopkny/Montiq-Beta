@@ -1,0 +1,82 @@
+2.0.0 - 10/14/2016
+==================
+- Updated layout of run command window -JO
+- Commands now run in a smaller popup window instead of opening a whole new browser tab -JO
+- Fixed various PHP errors on the configuration page -JO
+- Fixed commands freezing the apache process while the command is running -JO
+
+1.6.6 - 08/31/2016
+==================
+- Fixed typo in variable name -JO
+
+1.6.5 - 03/08/2016
+==================
+- Added username into objectsvars so users can access it using %username% -LG
+
+1.6.4 - 03/08/2016
+==================
+- Fixed issue where host/service name with spaces would add a + symbol -JO
+
+1.6.3 - 03/03/2016
+==================
+- Add hostalias to service macro -SW
+
+1.6.2 - 02/18/2016
+==================
+- Whitespace change -JO
+
+1.6.1 - 10/21/2015
+==================
+- Fixed a bug where erroneous commas were being displayed in the quick actions table -LG
+
+1.6.0 - 05/19/2015
+==================
+- Added ability to use custom host/service variables, these use the same convention as macro names, precened by _, are all capital letters
+    and would be references like %_HOSTMAC_ADDRESS% for _mac_address on a host object or %_SERVICESNMP_COMMUNITY% for _SNMP_community -SW
+- Added ability to select user type to be able to view custom actions -JO
+    
+1.5.7 - 03/30/2015
+==================
+- Add ability to delete actions -SW
+
+1.5.6 - 03/27/2015
+==================
+- Added %hostgroupnames% and %servicegroupnames% macros -SW
+
+1.5.3 - 02/06/2015
+==================
+- Fixed bug causing "No URL specified on line x" when setting up actions -SW
+- Fix bug where reactor actions without context variables would fail. -SW
+
+1.5.3 - 02/06/2015
+==================
+- Fixed bug causing no links to show if $showlink was set to false in a previous codeblock -SW
+
+1.5.1 - 10/13/2014
+==================
+- Fixed default text in the "Action Text" to not overwrite the original -JO
+
+1.5.0 - 10/01/2014
+==================
+- Added the ability to create actions for Reactor Event Chains -JO
+- Added translations -JO
+
+2013-06-27
+==========
+Fix to backend call to pull the required host information for service calls -SW
+
+2013-03-12
+==========
+Fix bug where hostgroups and servicegroups with spaces didn't work -SW
+
+2012-11-15
+==========
+- Bug fix where cmd didn't work with macros on services -SW
+
+2012-06-13
+==========
+- Added support for custom PHP logic and running commands - EG
+
+2011-08-21
+==========
+- Initial non-release - EG

@@ -1,0 +1,10 @@
+<configwizard>
+    <templates>
+        <template filename="passiveobject.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="passiveobject.png"/>
+    </logos>
+    <plugins>
+    </plugins>
+</configwizard>

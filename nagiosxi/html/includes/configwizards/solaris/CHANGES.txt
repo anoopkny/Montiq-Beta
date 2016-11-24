@@ -1,0 +1,23 @@
+1.2.4 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.2.3 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.2.2 - 12/22/2014
+==================
+- Fixed link to the installing Solaris agent document -JO
+
+2014-04-28
+==========
+- Fix undefined offsets repopulating 'Services' and 'Processes' fields when moving back from previous steps. -EM
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+????-??-??
+==========
+- Initial Release

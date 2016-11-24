@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#toggle-lights {
+    cursor: pointer;
+}
+
+#clock {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#be-header {
+    padding: 15px 20px;
+    margin: 0 10px 15px 10px;
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#be-header h1 {
+    line-height: 34px;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#be-body {
+    display: table;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+#be-dash {
+    display: table-cell;
+    padding: 0 10px;
+}
+
+#be-status {
+    display: table-cell;
+    width: 20%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.be-host-block {
+    vertical-align: top;
+    border: 1px solid;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.be-host-block h4 {
+    padding: 14px 0;
+    font-size: 14px;
+    line-height: 22px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin: 0;
+}
+
+.be-host-block p {
+    padding: 10px 0;
+    border-top: 1px solid;
+    font-weight: bold;
+    color: red;
+    font-size: 13px;
+    margin: 0;
+}
+
+#be-header .stat {
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+#be-header .stat img {
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+#be-hosts {
+    width: 100%;
+    margin-left: 2px;
+}
+
+#be-hosts .bl {
+    min-width: 230px;
+    width: 20%;
+    margin: -1px;
+}
+
+.state {
+    font-size: 9px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.day .state.end, .night .state.end {
+    border: none;
+}
+
+/* Day layout styling */
+.day {
+    background-color: #FFF;
+    color: #111;
+}
+
+.day #be-header {
+    background-color: #eee;
+}
+
+.day > #be-body > #be-status {
+    background-color: #EEE;
+}
+
+.day .be-host-block h4 {
+    background-color: #eee;
+    background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+}
+
+.day .be-host-block.critical {
+    border-color: #d71f27;
+}
+
+.day .be-host-block.warning {
+    border-color: yellow;
+}
+
+.day .be-host-block.online {
+    border-color: green;
+}
+
+.day .be-host-block p {
+    border-color: #e0e0e0;
+    background-color: #eee;
+}
+
+.day .state {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Night layout styling */
+.night {
+    background-color: #222;
+    color: #EEE;
+}
+
+.night #be-header {
+    background-color: #101010;
+}
+
+.night > #be-body > #be-status {
+    background-color: #161616;
+}
+
+.night .be-host-block h4 {
+    background: #111;
+    background: linear-gradient(to bottom, #333333 0%, #161616 100%);
+}
+
+.night .be-host-block.critical {
+    border-color: #88171a;
+}
+
+.night .be-host-block.warning {
+    border-color: yellow;
+}
+
+.night .be-host-block.online {
+    border-color: green;
+}
+
+.night .be-host-block p {
+    border-color: #292929;
+    background-color: #161616;
+}
+
+.night .state {
+    border-bottom: 1px solid #292929;
+}
+
+.day a.host {
+    color: #333;
+}
+
+.night a.host {
+    color: #FFF;
+}
+
+a.service {
+    color: red;
+}

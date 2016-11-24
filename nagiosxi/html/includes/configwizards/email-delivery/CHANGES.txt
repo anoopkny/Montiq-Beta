@@ -1,0 +1,19 @@
+2.0.3 - 07/08/2016
+==================
+- Detect User macros -LG
+
+2.0.2 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+04/26/2012 - 2.0.1
+==========
+Add Translation syntax -SW
+
+04/26/2012 - 2.0
+==========
+Completely rewritten to not use OOP and 12 $ARGn$'s which was CCM incompatible -SW
+
+??/??/???? - 1.0
+==========
+v1

@@ -1,0 +1,9 @@
+<configwizard>
+    <templates>
+    </templates>
+    <logos>
+        <logo filename="autodiscovery.png"/>
+    </logos>
+    <plugins>
+    </plugins>
+</configwizard>

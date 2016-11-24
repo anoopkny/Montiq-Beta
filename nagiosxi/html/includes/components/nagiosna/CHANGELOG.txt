@@ -1,0 +1,42 @@
+1.2.8 - 07/28/2016
+==================
+- Updated to work with NNA 2.2.2's new security patches -JO
+
+1.2.7 - 02/18/2016
+==================
+- Updated wkhtmltopdf command options -BH
+
+1.2.6 - 05/26/2015
+==================
+- Fix loading different NNA servers in Host/Service NNA tabs -JO
+
+1.2.5 - 03/25/2015
+==================
+- Update to not load tab until clicked -SW
+
+1.2.4 - 03/18/2015
+==================
+- Added hostnames if selected in NNA settings -JO
+- Added JPG export of report -SW
+- Updated pie graph and graph sizes in 'fullscreen' mode -JO
+
+1.2.3 - 03/09/2015
+==================
+- Get Packets/Sec, Bits/Sec, Bits/Packet back in the reports if nfdump version is 1.6.13 -SW
+- Fix broken link to queries in on CentOS7 -SW
+
+1.2.2 - 07/08/2014
+==================
+- Fixed NNA references to Nagios Network Analyzer -SW
+
+1.1.1 - 05/23/2014
+==================
+- Fixed bug with multiple Nagios NA servers integrated where the service/servicegroups wouldn't update on select box change -JO
+
+1.1.0 - 04/21/2014
+==================
+- Added the ability to remove the NNA tab from the Host/Service details page -JO
+
+1.0.0 - ??
+==================
+Inital release

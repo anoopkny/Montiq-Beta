@@ -1,0 +1,55 @@
+1.4.6 - 10/25/2016
+==================
+- Fix error detection to allow system and user macros [TPS#9844] -LG
+
+1.4.5 - 07/19/2016
+==================
+- Detect User macros -LG
+
+1.4.4 - 06/15/2016
+==================
+- Windows Desktop wizard retired and will now run this wizard -LG
+
+1.4.3 - 12/08/2015
+==================
+- Fix download link for newer versions of nsclient -JO
+
+1.4.2 - 07/25/2015
+==================
+- Minor changes for XI 5 -JO
+
+2014-04-28
+==========
+- Fix undefined offsets repopulating 'Services', 'Processes', and 'Performance Counters' fields when moving back from previous steps. -EM
+
+2013-07-23
+==========
+- add 2012 to description -YR
+
+2013-06-24
+==========
+- Fix Inverted sample performance counter from "Logon Errors" to "Errors Logon" -SW
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+2012-08-30
+==========
+- Added new links to 32/64-bit stable and devel versions of the agent - EG
+
+2012-03-26
+==========
+- Bug fix, fixed undefined variables for checkboxes -SW
+
+2012-02-29
+==========
+- Added fixed links to stable versions of 32/64-bit versions of agent - EG
+
+2012-02-24
+==========
+- Bug Fix, was saving cpu values to memory -SW
+
+2011-09-02
+==========
+- Fixed Logon Errors performance counters (Troy Lea) - EG

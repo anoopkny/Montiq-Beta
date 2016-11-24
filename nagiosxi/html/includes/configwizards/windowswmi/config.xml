@@ -1,0 +1,12 @@
+<configwizard>
+    <templates>
+        <template filename="windowswmi.cfg"/>
+    </templates>
+    <logos>
+    </logos>
+    <plugins>
+        <plugin filename="check_wmi_plus.ini"/>
+        <plugin filename="check_wmi_plus.pl"/>
+        <plugin filename="check_wmi_plus.conf"/>
+    </plugins>
+</configwizard>

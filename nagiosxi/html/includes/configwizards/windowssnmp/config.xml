@@ -1,0 +1,14 @@
+<configwizard>
+    <templates>
+        <template filename="windowssnmp.cfg"/>
+    </templates>
+    <logos>
+    </logos>
+    <plugins>
+        <plugin filename="check_win_snmp_disk.pl"/>
+        <plugin filename="check_snmp_win.pl"/>
+        <plugin filename="check_snmp_storage.pl"/>
+        <plugin filename="check_snmp_process.pl"/>
+        <plugin filename="check_snmp_load.pl"/>
+    </plugins>
+</configwizard>

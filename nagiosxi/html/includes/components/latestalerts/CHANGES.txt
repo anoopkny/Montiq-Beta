@@ -1,0 +1,25 @@
+1.2.5 - 02/18/2016
+==================
+- Converted lstr to gettext -BH
+
+1.2.4 - 11/16/2015
+==================
+- Fixed missing translations -JO
+- Fixed missing icons and latest alert time [TPS#6976] -JO
+
+1.2.3 - 10/11/2015
+==================
+- Fixed service dropdown populating -JO
+- Fixed numerous php errors (warnings/notices) -JO
+
+1.2.2 - 08/26/2015
+==================
+- Updated for XI 5 -JO
+
+03/30/2015
+===============
+- Add sortable and searchable dropdown filtering by Host/Service/Hostgroup/Servicegroup -SW
+
+2/29/2012
+===============
+- Bug fix for undefined $varr variables.  Was throwing off some of the counts. - MG

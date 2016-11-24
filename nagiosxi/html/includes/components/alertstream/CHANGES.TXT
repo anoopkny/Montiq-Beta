@@ -1,0 +1,55 @@
+2.0.7 - 08/24/2016
+==================
+- Fixed bottom text along x axis being cut off [TPS#9358] -BH
+
+2.0.6 - 06/06/2016
+==================
+- Fixed XSS security vulnerabilities -JO
+
+2.0.5 - 03/15/2016
+==================
+- Fixed htmlentities encoding causing errors -BH
+
+2.0.4 - 03/14/2016
+==================
+- Fixed possible SQL injection -SW
+- Fixed possible XSS injection -SW
+
+2.0.3 - 02/18/2016
+==================
+- Converted lstr to gettext -BH
+
+2.0.2 - 11/02/2015
+==================
+- Fixed ability to search for host name -JO
+
+2.0.1 - 10/11/2015
+==================
+- Fixed throwing php errors -JO
+
+2.0.0 - 08/17/2015
+==================
+- Removed Java applet and replaced with D3.js version of alert stream graph -JO
+- Added ability to select HARD/SOFT/BOTH state changes -JO
+- Updated for XI 5 reports - JO
+
+1.3.2 - 02/25/2015
+==================
+- Hide custom dates until selected -SW 
+
+1.3.1 - 12/03/2014
+==================
+- Updated AlertStream.jar with a few small Java-related updates -JO
+- Fixed improperly displayed times on Alert Stream x axis -JO
+
+2013/06/19
+==========
+- Fix sort order on host, hostgroup, servicegroup dropdown list to be ASC -SW
+
+2011/08/05
+==========
+- Fixed problem where service alerts wouldn't appear if you limited by hostgroup
+
+2011/08/04
+===========
+- Added Nagios/Neoformix logos, which fixed problem where alertstream was non-interactive

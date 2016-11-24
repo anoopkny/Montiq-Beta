@@ -1,0 +1,13 @@
+<configwizard>
+    <templates>
+        <template filename="linuxsnmp.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="snmppenguin.png"/>
+    </logos>
+    <plugins>
+        <plugin filename="check_snmp_storage_wizard.pl"/>
+        <plugin filename="check_snmp_process_wizard.pl"/>
+        <plugin filename="check_snmp_load_wizard.pl"/>
+    </plugins>
+</configwizard>

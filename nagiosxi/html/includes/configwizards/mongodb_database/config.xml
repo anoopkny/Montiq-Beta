@@ -1,0 +1,11 @@
+<configwizard>
+    <plugins>
+        <plugin filename="check_mongodb.py"/>
+    </plugins>
+    <templates>
+        <template filename="mongodb_database.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="mongodb_db.png"/>
+    </logos>
+</configwizard>

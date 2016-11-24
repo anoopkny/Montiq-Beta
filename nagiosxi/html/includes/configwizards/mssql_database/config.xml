@@ -1,0 +1,11 @@
+<configwizard>
+    <templates>
+        <template filename="mssqldatabase.cfg"/>
+    </templates>
+    <logos>
+        <logo filename="mssqldatabase.png"/>
+    </logos>
+    <plugins>
+        <plugin filename="check_mssql_database.py"/>
+    </plugins>
+</configwizard>

@@ -1,0 +1,11 @@
+1.2.2 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.2.1 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+2012-05-18
+==========
+- Changed 'is_volatile' setting in 'xiwizard_generic_service' template to zero (0) - EG

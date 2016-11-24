@@ -1,0 +1,11 @@
+1.0.4 - 07/12/2016
+==================
+- Detect User macros -LG
+
+1.0.3 - 07/21/2015
+==================
+- Minor changes for XI 5 -JO
+
+1.0.2 - 11/24/2014
+==================
+- Check outputs an UNKNOWN when the server is not a master instead of a CRITICAL -JO

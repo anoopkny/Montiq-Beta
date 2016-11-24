@@ -1,0 +1,38 @@
+1.5.4 - 06/03/2016
+==================
+- Fixed /var/lib/net-snmp ownerships on install [TPS#8706] -BH
+
+1.5.3 - 02/18/2016
+==================
+- Fixed some install logic -LG
+
+1.5.2 - 10/11/2015
+==================
+- Fix automatic install on new system on some OS types -JO
+- Fixed proper display of install query in component list and updated 'installed' file with proper user/group -LG
+
+2014-10-20
+==========
+- Allow users to input an alternate SNMP port and allow them to use the TCP protocol. will use the default port 162 and UDP protocol if they leave it blank -LG
+
+2014-03-05
+==========
+- Check for host and service scheduled downtime then let the user choose to send or not send traps during downtime -LG
+- Adjust default commands to reflect updates -LG
+
+2012-11-23
+==========
+- Added ability to select which states and state types to send -SW
+
+2012-03-01
+==========
+- A warning is now printed if global event handlers are disabled (which would result in the component not working) - EG
+
+2012-02-10
+==========
+- Reverted to older code due to callback mods breaking component - EG
+
+
+2012-01-12
+==========
+- Modified component to only register for callbacks if enabled - EG

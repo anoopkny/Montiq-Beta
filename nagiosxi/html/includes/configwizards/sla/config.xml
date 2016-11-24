@@ -1,0 +1,11 @@
+<configwizard>
+	<plugins>
+		<plugin filename="check_xisla.php" />
+	</plugins>
+	<templates>
+		<template filename="check_sla.cfg" />
+	</templates>
+	<logos>
+		<logo filename="sla.png" />
+	</logos>
+</configwizard>

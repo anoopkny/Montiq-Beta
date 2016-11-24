@@ -1,0 +1,12 @@
+/* stylesheet for rss-dashlet */
+
+.rss_dashlet_inboardclass { overflow:hidden; }
+
+.rss_dashlet_inboardclass_rssList { margin: 0px; padding: 0px; }
+
+.rss_dashlet_inboardclass_rssLink { color: #003496; } 
+.rss_dashlet_inboardclass_rssListItem { 
+	margin: 2px; 
+	padding: 1px; 
+	border: 1px solid #AAA; } 
+	

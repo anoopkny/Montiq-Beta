@@ -1,0 +1,35 @@
+1.5.5 - 07/18/2016
+==================
+- Detect User macros -LG
+
+1.5.4 - 04/04/2016
+==================
+- Added option to choose no priviledged password and/or Auth password encryption for authNoPriv/noAuthNoPriv queries [TPS#8182] -LG
+
+1.5.3 - 02/18/2016
+==================
+- Fixed bug when using v3 where ' --protocols=' was causing a usage error -LG
+
+1.5.2 - 07/23/2015
+==================
+- Minor changes for XI 5 -JO
+
+2014-04-28
+==========
+- Fix undefined index for v3_priv_proto when moving from stage 1 to 2. -EM
+
+2013-04-29
+==========
+- added v3_priv_proto for SNMP v3 -SW
+
+2012-11-17
+==========
+- Added ability to add/delete rows -SW
+
+2012-10-10
+==========
+- Bug fix, fixed several items with SNMP v3 -SW
+
+2012-03-27
+==========
+- Bug fix, fixed undefined variables for checkboxes -SW
